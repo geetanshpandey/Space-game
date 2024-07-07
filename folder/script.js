@@ -3,7 +3,7 @@ cross = true;
 
 audio = new Audio('music.mp3');
 audiogo = new Audio('gameover.mp3');
-
+//for moving the astronaut
 document.onkeydown = function (e) {
     console.log("Key code is: ", e.code)
     if (e.code =='ArrowUp') {
