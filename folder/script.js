@@ -24,7 +24,7 @@ document.onkeydown = function (e) {
         astro.style.left = (astroX - 112) + "px";
     }
 }
-
+//for jumping of the astronaut
 setInterval(() => {
     astro = document.querySelector('.astro');
     gameOver = document.querySelector('.gameOver');
